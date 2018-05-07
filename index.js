@@ -16,6 +16,6 @@ function inc(n) {
 function dec(n) {
   return n - 1
 }
-function makeInt(n.toString()) {
-  return n
+function makeInt(a.toString()) {
+  return a
 }
