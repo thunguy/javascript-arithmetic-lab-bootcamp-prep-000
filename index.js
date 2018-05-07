@@ -19,9 +19,3 @@ function dec(n) {
 function makeInt(n) {
   return n
 }
-function preserveDecimal(string) {
-  if (n.toString() === string)
-  return n.toString()
-}
-
-
