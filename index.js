@@ -23,3 +23,11 @@ function preserveDecimal(n) {
     return parseFloat()
 }
 
+
+
+
+ if (n === n.toString()) {
+  } else {
+    return NaN
+}
+
