@@ -22,9 +22,4 @@ function makeInt(n) {
 function preserveDecimal(n) {
   return parseFloat()
 }
-function isNaN() {
-  if (isNaN) {
-    return NaN
-  }
-}
 
