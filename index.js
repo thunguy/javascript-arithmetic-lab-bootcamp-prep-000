@@ -21,11 +21,12 @@ function makeInt(n) {
 }
 function preserveDecimal(n) {
   if (n === n.toString()) {
-    return n
+    return parseFloat()
   } else {
     return NaN
   }
 }
+
 
 
 
