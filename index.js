@@ -25,8 +25,9 @@ function makeInt(n) {
 }
 function preserveDecimal(n) {
   if (n === n) {
-    return parseFloat(n, 10)
+    return parseFloat(n)
   } else if (n === isNaN) {
     return NaN
   }
 }
+
