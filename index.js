@@ -17,16 +17,17 @@ function dec(n) {
   return n - 1
 }
 function makeInt(n) {
-  if (n === isNaN) {
+  if (isNaN(n)) {
     return NaN
   } else {
     return parseInt(n, 10)
   }
 }
 function preserveDecimal(n) {
-  if (n === isNaN) {
+  if (isNaN(n)) {
     return NaN
   } else {
     return parseFloat()
   }
 }
+
