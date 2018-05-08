@@ -26,4 +26,5 @@ function preserveDecimal(n) {
   return parseFloat()
   if (isNaN(n)) { 
     return NaN
+  }
 }
