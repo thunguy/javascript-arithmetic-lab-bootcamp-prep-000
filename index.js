@@ -30,4 +30,3 @@ function preserveDecimal(n) {
     return NaN
   }
 }
-
