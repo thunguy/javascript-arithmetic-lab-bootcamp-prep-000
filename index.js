@@ -25,9 +25,10 @@ function makeInt(n, 10) {
 }
 function preserveDecimal(n) {
   if (n === n.toString()) {
-    return 
+    return n.toString()
   } else {
     return NaN
   }
 }
+
 
