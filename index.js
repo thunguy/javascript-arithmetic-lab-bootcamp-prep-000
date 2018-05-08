@@ -19,15 +19,16 @@ function dec(n) {
 function makeInt(n) {
   if (n === n) {
     return parseInt(n, 10)
-  } else if (isNaN(n)) {
+  } else if (n === isNaN) {
     return NaN
   }
 }
 function preserveDecimal(n) {
   if (n === n) {
     return parseFloat()
-  } else if (isNaN(n)) {
+  } else if (n === isNaN) {
     return NaN
   }
 }
+
 
