@@ -20,10 +20,9 @@ function makeInt(n) {
   return n
 }
 function preserveDecimal(n) {
+  if (n === n) {
     return parseFloat()
+  } else {
+    return NaN
+  }
 }
-
-
-
-
-
