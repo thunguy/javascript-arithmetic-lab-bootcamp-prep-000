@@ -18,7 +18,7 @@ function dec(n) {
 }
 function makeInt(n) {
   if (n === n.toString()) {
-    return 
+    return n
   } else {
     return NaN
   }
@@ -30,3 +30,4 @@ function preserveDecimal(n) {
     return NaN
   }
 }
+
