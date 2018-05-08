@@ -17,12 +17,7 @@ function dec(n) {
   return n - 1
 }
 function makeInt(n) {
-  
-  if (n === n.toString()) {
-    return n
-  } else {
-    return NaN
-  }
+  return parseInt()
 }
 function preserveDecimal(n) {
   if (n === n.toString()) {
@@ -31,5 +26,6 @@ function preserveDecimal(n) {
     return NaN
   }
 }
+
 
 
